@@ -1,0 +1,44 @@
+<div id="shop-1" class="tab-pane active">
+    <div class="row">
+        {% for product in products %}
+            <div class="col-xl-3 col-md-4 col-sm-6">
+                <article class="list-product">
+                    <div class="img-block">
+                        <a href="#" class="thumbnail">
+                            <img class="first-img" src="{{ product.url }}" alt="" />
+                        </a>
+                        <div class="quick-view quick-view1">
+                            <a class="quick_view" href="#" title="Quick view" data-toggle="modal" data-target="#exampleModal">
+                                <i class="ion-ios-search-strong"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-decs">
+                        <a class="inner-link" href="#"><span>{{product.name}}</span></a>
+                        <h2 style="display:none;" class="description-h2-1" ><a id="description" href="#" class="product-link">{{product.description}}</a></h2>
+                        <h2><a href="/product/{{product.id}}/{{product.slug}}/" class="product-link">{{product.description}}</a></h2>
+                        <div class="rating-product">
+                            <i class="ion-android-star"></i>
+                            <i class="ion-android-star"></i>
+                            <i class="ion-android-star"></i>
+                            <i class="ion-android-star"></i>
+                            <i class="ion-android-star"></i>
+                        </div>
+                        <div class="pricing-meta">
+                            <ul>
+                                <li id="old-price" class="price">{{ product.price }}&nbsp;$</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="add-to-link">
+                      <ul>
+                          <li>
+                              <a href="#"><i class="ion-android-favorite-outline"></i></a>
+                          </li>
+                      </ul>
+                    </div>
+                </article>
+            </div>
+        {% endfor %}
+    </div>
+</div>

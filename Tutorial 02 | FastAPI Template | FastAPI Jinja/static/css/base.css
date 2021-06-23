@@ -1,0 +1,493 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@font-face
+{
+    font-family: Alama;
+    src: url(../font/Alama.otf);
+}
+@font-face
+{
+    font-family: Vazir;
+    src: url(../font/Vazir.ttf);
+}
+@font-face
+{
+    font-family: Nastaliq;
+    src: url(../font/IranNastaliq.ttf);
+}
+#logo2{
+    color:#000 !important;
+}
+#logo2:hover{
+    color:#4fb68d !important;
+}
+
+.count-cart:after {
+    content: none !important;
+}
+body { 
+    margin:0;
+    padding:0;
+    font-family:helvetica,Vazir !important;
+}
+
+h1, h2, h3, h4, h5 , h6 { 
+    font-family: 'Ubuntu',Vazir; font-weight:normal;
+}
+
+a {
+    text-decoration:none;
+    color:#5993bb;
+}
+
+.shop-bottom-area img {
+    height: 320px !important;
+    width:100%;
+}
+
+.list-product1 {
+    height: 380px !important;
+}
+
+.pro-details-list {
+    margin-bottom: 0px !important;
+}
+
+.pro-details-quality {
+    margin-bottom: 0px !important;
+}
+
+input[type= "submit"]{
+    outline:none;
+}
+
+.product-details-content .current-price {
+    font-size: 22px;
+    margin: 20px 0;
+}
+.add-to-link ul li span {
+    display: inline-block;
+    background: #fff;
+    color: #253237;
+    padding: 0;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.pro-details-wish-com span i {
+    margin-right: 10px;
+}
+.pro-details-wish-com span {
+    line-height: 30px;
+    padding: 0;
+    border: none;
+    color: #555;
+    font-size: 14px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.pro-details-wish-com span:hover {
+    color: rgb(79, 182, 141);
+}
+.add-to-link ul li span i {
+    margin-right: 10px;
+    font-size: 21px;
+}
+.form-deal1{
+    display:none;
+}
+#modal-price {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+input[type= "submit"]:hover{
+    color: rgb(79, 182, 141);
+}
+
+.add-to-link ul li span:hover{
+    color: rgb(79, 182, 141);
+}
+
+a.button.light {
+    color:#666;
+    background:#ededed;
+}
+
+.text-left {
+    text-align:left;
+}
+
+.text-right {
+    text-align:right;
+}
+.cart_quantity{
+    display: -webkit-inline-box;
+}
+.compare-table .table tbody tr td.product-image-title .image img {
+    height: 260px;
+}
+#hot_deal_image{
+    height:430px !important;
+}
+#compare_add_to_cart{
+    padding-bottom: 33px;
+}
+.your-order-area .Place-order>input {
+    background-color: #4fb68b;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 18px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    z-index: 9;
+    width: -webkit-fill-available;
+    outline: none;
+    border: none;
+}
+.your-order-area .Place-order>input:hover {
+    background: #253237;
+    color: #fff;
+}
+
+.cart_img{
+    width: 150px;
+    height: 110px;
+    margin-left: 20px;
+}
+td input[type="submit"] {
+    font-size:12px;
+    padding:4px 10px;
+}
+
+form p label, form p input {
+    float:left;
+    clear:both;
+}
+
+form p label {
+    font-size:14px;
+    padding-bottom:4px;
+}
+
+form p input {
+    width:300px;
+    font-size:13px;
+    margin-bottom:10px;
+    padding:10px 12px;
+    border:0;
+    background:#efefef;
+    color:#666;
+    border-radius:4px;
+}
+
+ul.errorlist {
+   float:left;
+   color:#ff0000;
+   clear:both;
+   font-size:13px;
+   margin:0; 
+   padding:0;
+}
+
+
+#header {
+    padding:10px 100px;
+    font-size:18px;
+    overflow:auto;
+}
+
+#subheader {
+    background:#ececec;
+    color:#444;
+    padding:15px 100px;
+    overflow:auto;
+}
+
+#header .logo {
+    font-family: 'Ubuntu', sans-serif;
+    float:left;
+    color:#333;
+    font-size:22px;
+    margin-right:10%;
+}
+
+#subheader .cart {
+    float:right;
+    padding-top:4px;
+}
+
+.subscribe-form .mc-form input {
+    height: 47px;
+    color: rgb(177, 177, 177);
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+    padding: 10px 120px 10px 20px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 30px;
+    outline: none;
+}
+
+.subscribe-form .mc-form .clear button  {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+    line-height: 47px;
+    height: 47px;
+    width: 106px;
+    background: rgb(37, 50, 55);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 0px 20px;
+    border-radius: 0px 30px 30px 0px;
+    transition: all 300ms linear 0s;
+    outline: none;
+}
+
+#content {
+    padding:0 100px;
+    overflow:hidden;
+}
+
+#sidebar {
+    width:220px;
+    padding:30px 20px 0 0;
+    float:left;
+}
+
+.pro-details-cart input {
+    position: relative;
+    top: -20px;
+    line-height: 48px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: none;
+    text-transform: uppercase;
+    display: block;
+    margin-left: 10px;
+    padding: 0px 55px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background: rgb(79, 182, 141);
+}
+
+.pro-details-cart input:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(37, 50, 55);
+}
+input:hover {
+    text-decoration: none;
+}
+.pro-details-cart{
+    display:inline-block !important;
+}
+
+#sidebar ul{
+    margin:0;
+    padding:0;
+}
+
+#sidebar ul li {
+    margin:0;
+    list-style:none;
+    padding:10px 14px;
+}
+
+#sidebar ul li a {
+    display:block;
+}
+
+#sidebar ul li.selected {
+    background:#5993bb;
+    border-radius:4px;
+}
+
+#sidebar ul li.selected a {
+    color:#fff;
+}
+
+.paypal_div{
+    padding: 20% 28%;
+}
+
+.pay{
+    background-color:#4fb68b;
+    color:#fff;
+    width:100%;
+    border-radius:5px;
+    border:0px;
+    outline:none;
+}
+.paypal-h1{
+    margin-bottom:30px;
+    text-align:center;
+}
+.pay:hover{
+    background-color:#000;
+    color:#fff !important;
+}
+
+.product-list .item {
+    width:25%;
+    padding:10px 20px 10px 0;
+    float:left;
+    text-align:center;
+    line-height:1.2;
+}
+
+.product-list .item img {
+    width:100%;
+    margin-bottom:8px;
+}
+
+.product-detail {
+    text-align:justify;
+}
+
+.product-detail .price {
+    color:#333;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.product-detail img {
+    width:40%;
+    float:left;
+    padding:0 20px 20px 0;
+}
+
+.product-detail h1 {
+    margin-bottom:0;
+}
+
+.product-detail h2 {
+    margin-top:10px;
+}
+
+.order-form {
+    float:left;
+}
+
+.order-info {
+    float:right;
+    width:300px;
+    background:#efefef;
+    padding:10px 20px;
+    color:#333;
+    border-bottom:4px solid #5993bb;
+}
+
+.order-info h3 {
+    color:#5993bb;
+}
+
+.order-info ul li {
+    margin:0;
+    padding:0;
+    font-size:14px;
+}
+
+.order-info p {
+    font-weight:bold;
+    float:right;
+}
+
+.order-info span {
+    float:right;
+}
+
+.neg {
+    color:#dc1616;
+}
+
+.languages {
+   float:right;
+   padding-top:4px;
+   font-size:14px;
+}
+
+.languages ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    float:left;
+}
+
+.languages ul li {
+    float:left;
+    margin:0 0 0 10px;
+    font-size:14px;
+}
+
+.languages p {
+    float:left;
+    margin:0;
+}
+
+.recommendations {
+    clear:both;
+}
+
+.recommendations div {
+    float:left;
+}
+
+.recommendations img {
+    width:200px
+}
+
+.recommendations p {
+    clear:both;
+}
+
+.recommendations.cart {
+    width:60%;
+    float:left;
+    overflow:auto;
+}
+
+.recommendations.cart h3 {
+    margin-top:0;
+}
+
+.recommendations.cart .item {
+    margin-right:10px;
+}
+
+.recommendations.cart img {
+    width:120px;
+}
+
+/* braintree hosted fields */
+form div.field_payment {
+    font-size:13px;
+    color:#666;
+    width: 100%;
+    height:22px;
+    margin-bottom:10px;
+    padding:6px 12px;
+    border:0;
+    background:#efefef;
+    color:#666;
+    border-radius:4px;
+}

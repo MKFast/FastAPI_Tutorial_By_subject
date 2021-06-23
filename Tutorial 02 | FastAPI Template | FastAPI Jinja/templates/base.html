@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title> Crown Geram</title>
+  <link href="/static/css/base.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800&amp;display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/static/assets/css/vendor/plugins.min.css">
+  <link rel="stylesheet" href="/static/assets/css/style.min.css">
+  <link rel="stylesheet" href="/static/assets/css/responsive.min.css">
+</head>
+
+<body>
+
+<div id="main">
+  <header class="main-header home-2">
+    <!-- Header top Area Start  -->
+    <div class="header-top-nav">
+      <div class="container-fluid">
+        <div class="row">
+          <!--Left Start-->
+          <div class="col-lg-4 col-md-4">
+            <div class="left-text">
+              <p>"Welcome you to Crown store!"</p>
+            </div>
+          </div>
+          <!--Left end-->
+        </div>
+      </div>
+    </div>
+    <!-- Header top Area end  -->
+
+    <!-- Header Navigation Area Start  -->
+    <div class="header-navigation sticky-nav">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Logo Start -->
+                <div class="col-md-2 col-sm-2">
+                    <div class="logo">
+                      <a href="#" id="logo2"><h1>CrownGeram</h1></a>
+                    </div>
+                </div>
+                <!-- Logo End -->
+                <!-- Navigation Start -->
+                <div class="col-md-10 col-sm-10">
+                    <!--Main Navigation Start -->
+                    <div class="main-navigation d-none d-lg-block">
+                        <ul>
+                            <li class="menu-dropdown">
+                                <a href="#">Pages &nbsp;<i class="ion-ios-arrow-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">main page</a></li>
+                                    <li><a href="#">product list</a></li>
+                                    <li><a href="#">Cart</a></li>
+                                    <li><a href="#">Compare</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Main Navigation End -->
+                    <!--Header Bottom Account Start -->
+                    <div class="header_account_area">
+                        <!--Contact info Start -->
+                        <div class="contact-link">
+                            <div class="phone">
+                                <p>Call us:</p>
+                                <a href="tel:(+98)5631">(+98) 5631</a>
+                            </div>
+                        </div>
+                        <!--Contact info End -->
+                        <!--Cart info Start -->
+                        <div class="cart-info d-flex">
+                            <div class="mini-cart-warp">
+                                <a href="#" class="count-cart"></a>
+                            </div>
+                        </div>
+                        <!--Cart info End -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- mobile menu -->
+            <div class="mobile-menu-area">
+                <div class="mobile-menu">
+                    <nav id="mobile-menu-active">
+                        <ul class="menu-overflow">
+                            <li class="menu-dropdown">
+                                <a href="#">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">main page</a></li>
+                                    <li><a href="#">product list</a></li>
+                                    <li><a href="#">Cart</a></li>
+                                    <li><a href="#">Compare</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- mobile menu end-->
+        </div>
+    </div>
+    <!--Header Bottom Account End -->
+  </header>
+      {% block content %}
+  {% endblock %}
+
+  <!-- Footer Area start -->
+  <footer class="footer-area">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <!-- footer single wedget -->
+          <div class="col-md-6 col-lg-4">
+            <!-- footer logo -->
+            <div class="footer-logo">
+              <a href="#" id="logo"><h1>CrownGeram</h1></a>
+            </div>
+            <!-- footer logo -->
+            <div class="about-footer">
+              <p class="text-info">We are new shop with diffrent strategy in selling</p>
+              <div class="need-help">
+                <p class="phone-info">
+                  NEED HELP?
+                  <span>
+                      (+98) 5631 <br />
+                      (+98) 5631
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- footer single wedget -->
+          <div class="col-md-6 col-lg-4 mt-res-md-100px mt-res-sx-60px mt-res-md-60px">
+            <div class="single-wedge">
+              <h4 class="footer-herading">Custom Links</h4>
+              <div class="footer-links">
+                <ul>
+                  <li><a href="#">main page</a></li>
+                  <li><a href="#">product list</a></li>
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Compare</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- footer single wedget -->
+          <div class="col-md-6 col-lg-4 mt-res-md-50px mt-res-sx-30px mt-res-md-30px">
+            <div class="single-wedge">
+              <h4 class="footer-herading">Newsletter</h4>
+              <div class="subscrib-text">
+                <p>Enter email to subscribe Newsletter .</p>
+              </div>
+              <div id="mc_embed_signup" class="subscribe-form">
+                  <div class="mc-form">
+                    <input class="email-input" type="email" placeholder="Enter your email here..">
+                    <div class="clear">
+                      <button id="subscribe">Subscribe</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="img_app">
+                <a href="#"><img src="/static/assets/images/icons/app_store.png" alt="" /></a>
+                <a href="#"><img src="/static/assets/images/icons/google_play.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <!-- footer single wedget -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--  Footer Area End -->
+</div>
+
+<script src="/static/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js">
+</script>
+<script>
+          var csrftoken = Cookies.get('csrftoken');
+      function csrfSafeMethod(method) {
+      // these HTTP methods do not require CSRF protection
+      return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+      }
+      $.ajaxSetup({
+          beforeSend: function(xhr, settings) {
+          if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+          xhr.setRequestHeader("X-CSRFToken", csrftoken);
+          }
+      }
+      });
+    $(document).ready(function(){
+        $('#subscribe').click(function(e){
+
+        });
+    });
+</script>
+
+<script src="/static/assets/js/plugins.min.js"></script>
+
+<!-- Main Activation JS -->
+<script src="static/assets/js/main.js"></script>
+</body>
+</html>
