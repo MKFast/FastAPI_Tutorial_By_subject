@@ -3,7 +3,9 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-1. [FastAPI tutorial by subject || Tutorial 01 (FastAPI router)](https://youtu.be/2SbCb7kAZCs)
+1. [FastAPI tutorial by subject || Tutorial 01 (FastAPI router)] (https://m.youtube.com/watch?v=2SbCb7kAZCs&t=143s)
+1. [FastAPI tutorial by subject || Tutorial 02 (FastAPI router)](https://www.youtube.com/watch?v=srDLXcB2AHo&t=3s)
+
 
 #### FastAPI
 
